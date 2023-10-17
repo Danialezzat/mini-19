@@ -8,14 +8,15 @@
 </head>
 <body>
     <div class="container">
-        <h1>simple quiz</h1>
+        <h1 class="header">simple quiz</h1>
         <div>
-            <button>first option</button>
-            <button>second option</button>
-            <button>third option</button>
-            <button>forth option</button>
+            <p class="myQues">1. this is your question ?</p>
+            <button onclick="optionPicker1()" class="optionOne">first option</button>
+            <button onclick="optionPicker2()" class="optionTwo">second option</button>
+            <button onclick="optionPicker3()" class="optionThree">third option</button>
+            <button onclick="optionPicker4()" class="optionFour">forth option</button>
         </div>
-        <button class="next">next</button>
+        <button onclick="next()" class="next">next</button>
     </div>
 
     <script src="./script.js"></script>

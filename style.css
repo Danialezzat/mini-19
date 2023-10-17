@@ -17,8 +17,8 @@ body {
 }
 
 .container {
-    height: 300px;
-    width: 400px;
+    height: 380px;
+    width: 480px;
     border-radius: 7px;
     display: flex;
     flex-direction: column;
@@ -32,4 +32,52 @@ body {
     color: #173e43;
     border-bottom: 1px solid #173e43;
     padding-bottom: 7px;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    color: #173e43;
+    padding-bottom: 7px;
+    margin-top:  10px;
+    row-gap: 10px;
+}
+.container div p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container div button {
+    height: 33px;
+    border-radius: 4px;
+    border: 1px solid #173e43;
+    color: #173e43;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+.container div button:hover {
+    background-color: #fff;
+    color: #173e43;
+    box-shadow: rgba(125, 125, 130, 0.832) 0px 7px 29px 0px;
+}
+
+.next {
+    width: 100px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #173e43;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    transition: 0.2s;
+    display: none;
+}
+.next:hover {
+    background-color: white;
+    color: #173e43;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 20px;
 }
