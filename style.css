@@ -50,6 +50,7 @@ body {
 .container div button {
     height: 33px;
     border-radius: 4px;
+    background-color: #fff;
     border: 1px solid #173e43;
     color: #173e43;
     font-weight: bold;
